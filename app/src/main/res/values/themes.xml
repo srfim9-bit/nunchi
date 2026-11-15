@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nunchi_bg">#0E1620</color>
+    <color name="nunchi_icon_bg">#16324F</color>
+
+    <style name="Theme.Nunchi" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/nunchi_bg</item>
+        <item name="android:statusBarColor">@color/nunchi_bg</item>
+        <item name="android:navigationBarColor">@color/nunchi_bg</item>
+    </style>
+</resources>

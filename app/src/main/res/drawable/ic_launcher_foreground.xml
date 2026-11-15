@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 창문 + 위쪽 1cm 틈: '말하기 전에 움직이는 1cm' -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 창틀 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E8EEF5"
+        android:strokeWidth="4"
+        android:pathData="M30,34 L78,34 L78,76 L30,76 Z" />
+    <!-- 살짝 내려간 유리 -->
+    <path
+        android:fillColor="#2A78D6"
+        android:pathData="M34,44 L74,44 L74,72 L34,72 Z" />
+    <!-- 1cm 틈으로 빠지는 공기 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#EB6834"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M42,39 L48,39 M54,39 L60,39 M66,39 L70,39" />
+</vector>
